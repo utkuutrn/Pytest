@@ -1,0 +1,4 @@
+1- @pytest.fixture: Bu decorator, bir test fonksiyonu veya metodu için bir "fixture" (donanım) oluşturmanıza ve bu fixture'ı testlere sağlamanıza olanak tanır. Fixtures, tekrar kullanılabilir test kaynakları veya durumları sağlamak için kullanılır.
+2- @pytest.mark.parametrize: Bu decorator, bir test fonksiyonunu farklı parametre setleriyle çalıştırmak için kullanılır. Parametre setleri, bir liste veya sözlük olarak sağlanabilir.
+3- @pytest.mark.skip ve @pytest.mark.skipif: Bu decorator'lar, belirli bir testi atlamak veya bir koşula bağlı olarak bir testi atlamak için kullanılır.
+4- @pytest.mark.xfail: Bu decorator, bir testin başarısız olmasını beklediğinizi işaretlemek için kullanılır.
